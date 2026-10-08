@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Roots & Rise — a digital-first blueprint for rural and tribal entrepreneurship in India." />
+  <title>Roots & Rise | Rural & Tribal Entrepreneurship</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Roots and Rise home">
+      <span class="brand-mark">✦</span><span>ROOTS<span class="amp">&</span>RISE</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#why">Why it matters</a>
+      <a href="#sectors">Sectors</a>
+      <a href="#model">Model</a>
+      <a href="#schemes">Support</a>
+      <a href="#impact">Impact</a>
+      <a class="nav-cta" href="#tool">Build a plan →</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">INDIA'S GRASSROOTS ECONOMY · 2026</div>
+        <h1>Turn local <em>knowledge</em><br/>into lasting livelihoods.</h1>
+        <p class="hero-lead">A practical blueprint for rural and tribal entrepreneurship — where indigenous products, crafts and farm resources meet value addition, fair markets and digital commerce.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#model">Explore the model <span>↘</span></a>
+          <button class="btn ghost" id="storyBtn">See the 60-second idea <span>▶</span></button>
+        </div>
+        <div class="hero-note"><span class="pulse"></span> Built around community ownership, not dependency.</div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of village enterprise ecosystem">
+        <div class="sun"></div><div class="hill h1"></div><div class="hill h2"></div>
+        <div class="farm farm-a"></div><div class="farm farm-b"></div>
+        <div class="tree t1"></div><div class="tree t2"></div><div class="tree t3"></div>
+        <div class="village-card">
+          <span>VALUE CHAIN</span><strong>Forest → Craft → Brand → Market</strong>
+          <small>Keep more value close to the producer.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Core principles">
+      <div>LOCAL RESOURCES</div><span>✦</span><div>VALUE ADDITION</div><span>✦</span><div>FAIR TRADE</div><span>✦</span><div>DIGITAL ACCESS</div><span>✦</span><div>COMMUNITY OWNERSHIP</div>
+    </section>
+
+    <section class="section problem" id="why">
+      <div class="section-head">
+        <div><div class="eyebrow">01 / THE OPPORTUNITY</div><h2>The resource is local.<br/><em>The market doesn't have to be.</em></h2></div>
+        <p>Rural and tribal communities already hold assets that can become businesses: traditional skills, crops, minor forest produce, craft knowledge and local identity. The missing links are often processing, packaging, finance, skills, logistics and market access.</p>
+      </div>
+      <div class="stat-grid">
+        <article class="stat-card"><b>01</b><span>Raw produce</span><strong>Low value</strong><p>Collectors and farmers often sell before processing or branding.</p></article>
+        <article class="stat-card accent"><b>02</b><span>Value addition</span><strong>Higher margin</strong><p>Sorting, processing, design, quality and packaging move value upstream.</p></article>
+        <article class="stat-card"><b>03</b><span>Digital access</span><strong>Wider reach</strong><p>Catalogues, open commerce, storytelling and logistics can connect village products to new buyers.</p></article>
+        <article class="stat-card dark"><b>04</b><span>Collective power</span><strong>Fairer terms</strong><p>SHGs, producer groups and enterprises can aggregate supply, skills and bargaining power.</p></article>
+      </div>
+    </section>
+
+    <section class="section sectors" id="sectors">
+      <div class="section-head compact"><div><div class="eyebrow">02 / WHAT CAN GROW?</div><h2>Four routes from <em>resource → enterprise.</em></h2></div><p>Filter the ecosystem to see where entrepreneurship can start.</p></div>
+      <div class="filter-row" role="group" aria-label="Filter sectors">
+        <button class="filter active" data-filter="all">All</button><button class="filter" data-filter="agro">Agro</button><button class="filter" data-filter="craft">Craft</button><button class="filter" data-filter="forest">Forest produce</button><button class="filter" data-filter="digital">Digital services</button>
+      </div>
+      <div class="sector-grid" id="sectorGrid">
+        <article class="sector-card" data-cat="agro"><div class="sector-icon">🌾</div><span>01 · AGRO</span><h3>Farm-to-brand</h3><p>Millets, spices, fruits, oils, pickles and other foods can move from bulk commodity to traceable local brand.</p><button class="text-btn" data-detail="agro">View pathway →</button></article>
+        <article class="sector-card" data-cat="craft"><div class="sector-icon">◈</div><span>02 · CRAFT</span><h3>Craft & handloom</h3><p>Design, quality control, storytelling, contemporary packaging and digital catalogues can expand artisan markets.</p><button class="text-btn" data-detail="craft">View pathway →</button></article>
+        <article class="sector-card" data-cat="forest"><div class="sector-icon">♧</div><span>03 · FOREST</span><h3>Forest-to-value</h3><p>Honey, tamarind, mahua, herbs and other non-timber forest produce can be sorted, processed and marketed collectively.</p><button class="text-btn" data-detail="forest">View pathway →</button></article>
+        <article class="sector-card" data-cat="digital"><div class="sector-icon">⌁</div><span>04 · DIGITAL</span><h3>Rural digital services</h3><p>Local youth can build catalogues, photography, social media, bookkeeping, delivery coordination and online storefronts.</p><button class="text-btn" data-detail="digital">View pathway →</button></article>
+      </div>
+    </section>
+
+    <section class="section model" id="model">
+      <div class="model-intro"><div class="eyebrow">03 / THE ROOTS & RISE MODEL</div><h2>Don't just sell the raw material.<br/><em>Build the value chain.</em></h2><p>The model connects producer capability with shared infrastructure and transparent markets. Each step creates a place for local entrepreneurship.</p></div>
+      <div class="steps">
+        <div class="step"><span>01</span><div><h3>Identify</h3><p>Map local crops, forest produce, crafts, skills and existing producer groups.</p></div></div>
+        <div class="step"><span>02</span><div><h3>Upgrade</h3><p>Add training, tools, quality standards, design, packaging and simple business systems.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Aggregate</h3><p>Use SHGs, producer groups or enterprises to pool supply, equipment, transport and bargaining power.</p></div></div>
+        <div class="step"><span>04</span><div><h3>Digitise</h3><p>Create product catalogues, verified identities, stories, prices and fulfilment workflows.</p></div></div>
+        <div class="step"><span>05</span><div><h3>Reach markets</h3><p>Combine local fairs and institutions with e-commerce, open networks, retailers and B2B buyers.</p></div></div>
+        <div class="step"><span>06</span><div><h3>Reinvest</h3><p>Track margins and impact; reinvest in better tools, skills, youth jobs and sustainable sourcing.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section case-study">
+      <div class="case-visual"><div class="case-label">FROM FOREST TO MARKET</div><div class="case-product">MAHUA<br/><small>VALUE-ADDED PRODUCT</small></div><div class="case-orbit o1"></div><div class="case-orbit o2"></div></div>
+      <div class="case-copy"><div class="eyebrow">A PROVEN DIRECTION</div><h2>Value addition can change the <em>unit economics.</em></h2><p>TRIFED's Van Dhan approach organises tribal gatherers into community-owned clusters, with training, equipment, processing, branding and market identification. Its stated model targets groups of around 300 beneficiaries in a cluster.</p><div class="mini-metrics"><div><strong>15</strong><span>SHGs / cluster</span></div><div><strong>20</strong><span>members / SHG</span></div><div><strong>300</strong><span>approx. beneficiaries</span></div></div><a class="btn dark-btn" href="#schemes">See support ecosystem →</a></div>
+    </section>
+
+    <section class="section support" id="schemes">
+      <div class="section-head compact"><div><div class="eyebrow">04 / THE SUPPORT ECOSYSTEM</div><h2>Connect the entrepreneur to the <em>right bridge.</em></h2></div><p>These are examples of existing public infrastructure that can complement a grassroots enterprise. Eligibility and terms vary; verify current guidelines before applying.</p></div>
+      <div class="scheme-grid">
+        <article class="scheme"><span class="scheme-tag">TRIFED · TRIBAL</span><h3>Van Dhan</h3><p>Supports value addition and enterprise development around minor forest produce through community structures.</p><a href="https://trifed.tribal.gov.in/en/pmvdy" target="_blank" rel="noopener">Official source ↗</a></article>
+        <article class="scheme"><span class="scheme-tag">RURAL · SHGs</span><h3>DAY-NRLM</h3><p>Builds rural livelihoods through Self-Help Groups, capacity building, financial access and market linkages.</p><a href="https://rural.gov.in/" target="_blank" rel="noopener">Official source ↗</a></article>
+        <article class="scheme"><span class="scheme-tag">FOOD · MICRO UNITS</span><h3>PMFME</h3><p>MoFPI's framework includes support for micro food-processing units, SHGs/FPOs, seed capital, branding and training.</p><a href="https://www.mofpi.gov.in/" target="_blank" rel="noopener">Official source ↗</a></article>
+        <article class="scheme"><span class="scheme-tag">DIGITAL COMMERCE</span><h3>ONDC</h3><p>An open network approach can help producers get digital visibility through cataloguing, buyer apps and connected fulfilment.</p><a href="https://www.ondc.org/" target="_blank" rel="noopener">Official source ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section digital" id="digital">
+      <div class="digital-copy"><div class="eyebrow">05 / DIGITAL MARKET LINKAGE</div><h2>From a village shelf to a <em>national customer.</em></h2><p>Digital inclusion is more than putting a product online. A viable system needs good photos, truthful descriptions, standardised packaging, inventory, payment, logistics, customer support and a reliable producer identity.</p><div class="digital-list"><div><b>01</b><span><strong>Catalogue</strong>One product record, reusable across channels.</span></div><div><b>02</b><span><strong>Trust</strong>Origin, quality, producer and story are visible.</span></div><div><b>03</b><span><strong>Fulfilment</strong>Packaging + warehousing + last-mile are planned.</span></div></div></div>
+      <div class="phone"><div class="phone-top">ROOTS MARKET <span>●</span></div><div class="product-shot">🧺</div><small>MADE BY A PRODUCER COLLECTIVE</small><h3>Forest Honey</h3><div class="stars">★★★★★ <span>4.9</span></div><div class="price">₹349 <del>₹399</del></div><button class="buy-btn" id="buyBtn">Add to community cart</button><div class="phone-foot">↗ Trace origin &nbsp; · &nbsp; ♡ Save</div></div>
+    </section>
+
+    <section class="section tool" id="tool">
+      <div class="tool-header"><div><div class="eyebrow">06 / TRY THE MODEL</div><h2>See how value addition can <em>shift the picture.</em></h2></div><p>This simple calculator is illustrative — it is not a forecast. Change the assumptions to understand the logic behind processing and branding.</p></div>
+      <div class="calculator">
+        <div class="inputs">
+          <label>Raw units available <input id="units" type="range" min="50" max="1000" value="300"><output id="unitsOut">300 units</output></label>
+          <label>Raw price / unit <input id="rawPrice" type="range" min="20" max="500" value="80"><output id="rawOut">₹80</output></label>
+          <label>Value-added price / unit <input id="vaPrice" type="range" min="50" max="1000" value="220"><output id="vaOut">₹220</output></label>
+          <label>Processing + packaging / unit <input id="cost" type="range" min="10" max="500" value="70"><output id="costOut">₹70</output></label>
+        </div>
+        <div class="calc-result"><span>ILLUSTRATIVE GROSS VALUE CREATED</span><strong id="result">₹42,000</strong><p id="resultText">Compared with ₹24,000 if sold raw.</p><div class="bar"><i id="bar"></i></div><small>Gross value created ≠ profit. Labour, transport, tax, wastage, finance and other costs still matter.</small></div>
+      </div>
+    </section>
+
+    <section class="section impact" id="impact">
+      <div class="impact-copy"><div class="eyebrow">07 / MEASURE WHAT MATTERS</div><h2>Success is not only <em>sales.</em></h2><p>A strong rural enterprise should grow income while strengthening community capability and protecting the resource base.</p></div>
+      <div class="impact-grid"><div><strong>₹</strong><span>Producer income retained</span></div><div><strong>♀</strong><span>Women-led enterprises</span></div><div><strong>↗</strong><span>Local jobs created</span></div><div><strong>∞</strong><span>Sustainable sourcing</span></div><div><strong>◎</strong><span>New markets reached</span></div><div><strong>✦</strong><span>Skills transferred</span></div></div>
+    </section>
+
+    <section class="cta-section">
+      <div><div class="eyebrow">THE IDEA IN ONE LINE</div><h2>Don't extract value from rural India.<br/><em>Build value with rural India.</em></h2></div>
+      <button class="btn light-btn" id="pledgeBtn">I support the idea →</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top"><div class="brand"><span class="brand-mark">✦</span><span>ROOTS<span class="amp">&</span>RISE</span></div><p>A student concept for inclusive, sustainable grassroots entrepreneurship.</p></div>
+    <div class="sources"><strong>Research & sources</strong><span>TRIFED / Ministry of Tribal Affairs</span><span>Ministry of Rural Development · DAY-NRLM</span><span>MoFPI · PMFME</span><span>ONDC · Amazing India / Swadeshi</span></div>
+    <div class="footer-bottom"><span>Designed for the theme: Rural & Tribal Entrepreneurship</span><span>© 2026 Roots & Rise</span></div>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true"><div class="modal-box"><button class="close" id="closeModal">×</button><div id="modalContent"></div></div></div>
+  <div class="toast" id="toast">Added to community cart ✓</div>
+  <script src="script.js"></script>
+</body>
+</html>
